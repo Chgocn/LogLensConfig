@@ -1,0 +1,31 @@
+{
+  "type": "project",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2025-12-30T09:29:36.510Z",
+  "project": {
+    "id": "project-1767085238527",
+    "name": "语音",
+    "description": "",
+    "pathPatterns": [],
+    "enabledPacks": [
+      "builtin:general",
+      "builtin:android"
+    ],
+    "disabledPackRules": [],
+    "filters": [],
+    "filterGroups": [],
+    "exceptionRules": [],
+    "exceptionGroups": [],
+    "exceptionConfig": {
+      "enabled": true,
+      "autoCollapse": true,
+      "maxStackLines": 50
+    },
+    "logFormats": [],
+    "activeFormatId": null,
+    "userLevelDefinitions": [],
+    "createdAt": "2025-12-30T09:00:38.527Z",
+    "updatedAt": "2025-12-30T09:08:20.868Z"
+  }
+}
