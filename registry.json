@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2025-12-30T12:49:37.186Z",
+  "baseUrl": "https://raw.githubusercontent.com/log-compass/community-packs/main",
+  "categories": [
+    {
+      "id": "android",
+      "name": "Android",
+      "icon": "smartphone",
+      "description": "Android logging and crash detection",
+      "maintainers": [
+        "chgocn"
+      ],
+      "acceptingSubmissions": true
+    },
+    {
+      "id": "java",
+      "name": "Java/JVM",
+      "icon": "coffee",
+      "description": "Java and JVM-based application logs",
+      "maintainers": [],
+      "acceptingSubmissions": true
+    },
+    {
+      "id": "spring-boot",
+      "name": "Spring Boot",
+      "icon": "leaf",
+      "description": "Spring Boot application logs and patterns",
+      "maintainers": [],
+      "acceptingSubmissions": true
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "icon": "container",
+      "description": "Kubernetes and container orchestration logs",
+      "maintainers": [],
+      "acceptingSubmissions": true
+    },
+    {
+      "id": "web",
+      "name": "Web/HTTP",
+      "icon": "globe",
+      "description": "Web server and HTTP access logs",
+      "maintainers": [],
+      "acceptingSubmissions": true
+    }
+  ],
+  "packs": [
+    {
+      "id": "android-anr",
+      "name": "Android ANR Detection",
+      "version": "1.0.0",
+      "author": "chgocn",
+      "description": "Detect ANR (Application Not Responding) and native crashes in Android logs",
+      "tags": [
+        "android"
+      ],
+      "category": "android",
+      "path": "packs/android-anr/pack.json",
+      "readme": "packs/android-anr/README.md",
+      "updatedAt": "2025-12-30T12:49:37.186Z"
+    }
+  ]
+}

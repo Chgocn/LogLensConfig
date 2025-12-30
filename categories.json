@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "android",
+      "name": "Android",
+      "icon": "smartphone",
+      "description": "Android logging and crash detection",
+      "maintainers": ["chgocn"],
+      "acceptingSubmissions": true
+    },
+    {
+      "id": "java",
+      "name": "Java/JVM",
+      "icon": "coffee",
+      "description": "Java and JVM-based application logs",
+      "maintainers": [],
+      "acceptingSubmissions": true
+    },
+    {
+      "id": "spring-boot",
+      "name": "Spring Boot",
+      "icon": "leaf",
+      "description": "Spring Boot application logs and patterns",
+      "maintainers": [],
+      "acceptingSubmissions": true
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "icon": "container",
+      "description": "Kubernetes and container orchestration logs",
+      "maintainers": [],
+      "acceptingSubmissions": true
+    },
+    {
+      "id": "web",
+      "name": "Web/HTTP",
+      "icon": "globe",
+      "description": "Web server and HTTP access logs",
+      "maintainers": [],
+      "acceptingSubmissions": true
+    }
+  ],
+  "customTagsAllowed": true,
+  "customTagPrefix": "custom:",
+  "customTagRules": {
+    "minLength": 3,
+    "maxLength": 30,
+    "pattern": "^[a-z0-9-]+$",
+    "requireApproval": false
+  }
+}

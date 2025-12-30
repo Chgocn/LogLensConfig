@@ -1,0 +1,51 @@
+{
+    "id": "pack-name",
+    "name": "Pack Display Name",
+    "version": "1.0.0",
+    "author": "github-username",
+    "description": "Brief description of what this pack does",
+    "tags": [
+        "category-id"
+    ],
+    "filters": [
+        {
+            "id": "filter-1",
+            "name": "Filter Name",
+            "pattern": "pattern-to-match",
+            "isRegex": false,
+            "caseSensitive": false,
+            "color": "#FF0000",
+            "enabled": true
+        }
+    ],
+    "exceptionRules": [
+        {
+            "id": "exception-1",
+            "name": "Exception Rule Name",
+            "pattern": "exception-pattern",
+            "severity": "error",
+            "description": "What this exception means"
+        }
+    ],
+    "logFormats": [
+        {
+            "id": "format-1",
+            "name": "Log Format Name",
+            "pattern": "^(?<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}) (?<level>\\w+) (?<message>.*)$",
+            "fields": [
+                "timestamp",
+                "level",
+                "message"
+            ]
+        }
+    ],
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2024-12-30",
+            "changes": [
+                "Initial release"
+            ]
+        }
+    ]
+}

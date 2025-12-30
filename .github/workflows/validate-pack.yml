@@ -1,0 +1,37 @@
+name: Validate Pack
+
+on:
+  pull_request:
+    paths:
+      - 'packs/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install Dependencies
+        run: npm ci
+        
+      - name: Validate Pack JSON
+        run: node scripts/validate.js
+        
+      - name: Check Required Fields
+        run: |
+          for dir in packs/*/; do
+            if [ -f "$dir/pack.json" ]; then
+              node -e "
+                const pack = require('./$dir/pack.json');
+                const required = ['id', 'name', 'version', 'author', 'tags'];
+                required.forEach(f => {
+                  if (!pack[f]) throw new Error('Missing: ' + f);
+                });
+              "
+            fi
+          done

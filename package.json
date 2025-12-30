@@ -1,0 +1,28 @@
+{
+    "name": "community-packs",
+    "version": "1.0.0",
+    "description": "Community rule packs repository for Log Compass",
+    "scripts": {
+        "validate": "node scripts/validate.js",
+        "build": "node scripts/build-registry.js",
+        "test": "npm run validate && npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/log-compass/community-packs.git"
+    },
+    "keywords": [
+        "log-compass",
+        "log-analysis",
+        "rule-packs",
+        "filters"
+    ],
+    "author": "Log Compass Community",
+    "license": "MIT",
+    "devDependencies": {
+        "ajv": "^8.12.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
