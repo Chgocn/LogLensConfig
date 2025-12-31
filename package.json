@@ -5,7 +5,8 @@
     "scripts": {
         "validate": "node scripts/validate.js",
         "build": "node scripts/build-registry.js",
-        "test": "npm run validate && npm run build"
+        "test": "npm run validate && npm run build",
+        "convert": "node scripts/convert-logviewer.js"
     },
     "repository": {
         "type": "git",

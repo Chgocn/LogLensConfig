@@ -1,0 +1,59 @@
+{
+  "id": "sample",
+  "name": "sample",
+  "version": "1.0.0",
+  "author": "chgocn",
+  "description": "Converted from LogViewer filter file: sample.filter",
+  "tags": [
+    "android"
+  ],
+  "filters": [
+    {
+      "id": "filter-1",
+      "name": "Test Filter",
+      "pattern": "Test Pattern",
+      "isRegex": false,
+      "caseSensitive": false,
+      "color": "#FF0000",
+      "enabled": true
+    },
+    {
+      "id": "filter-2",
+      "name": "ANR Filter",
+      "pattern": "ANR in",
+      "isRegex": false,
+      "caseSensitive": false,
+      "color": "#FF5722",
+      "enabled": true
+    },
+    {
+      "id": "filter-3",
+      "name": "Crash",
+      "pattern": "FATAL SIGNAL",
+      "isRegex": false,
+      "caseSensitive": true,
+      "color": "#F44336",
+      "enabled": true
+    },
+    {
+      "id": "filter-4",
+      "name": "Debug Log",
+      "pattern": "debug",
+      "isRegex": false,
+      "caseSensitive": false,
+      "color": "#2196F3",
+      "enabled": true
+    }
+  ],
+  "exceptionRules": [],
+  "logFormats": [],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-12-31",
+      "changes": [
+        "Converted from LogViewer format (4 filters)"
+      ]
+    }
+  ]
+}
