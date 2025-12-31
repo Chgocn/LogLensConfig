@@ -1,0 +1,42 @@
+PermissionManager,UGVybWlzc2lvbk1hbmFnZXI=,2,102:102:0,VERBOSE
+PermissionSettingsContentObserver,UGVybWlzc2lvblNldHRpbmdzQ29udGVudE9ic2VydmVy,2,26:69:73,VERBOSE
+SystemSettingsContentObserver,U3lzdGVtU2V0dGluZ3NDb250ZW50T2JzZXJ2ZXI=,2,26:69:73,VERBOSE
+禁用恢复语助,U3BlZWNoQ2xpZW50U2VydmljZTogKHN0b3B8cmVzdW1lKXZy,2,64:64:64,VERBOSE
+PermissionPrivacyViewPrivacy,UGVybWlzc2lvblByaXZhY3lWaWV3UHJpdmFjeQ==,2,102:102:0,VERBOSE
+ (CarConfigManager|DebugConfig):,IChDYXJDb25maWdNYW5hZ2VyfERlYnVnQ29uZmlnKTo=,2,102:0:0,VERBOSE
+HandMessageReceiver: hasList: 1,SGFuZE1lc3NhZ2VSZWNlaXZlcjogaGFzTGlzdDogMQ==,2,97:49:2,VERBOSE
+音乐状态上传,SGFuZE1lc3NhZ2VSZWNlaXZlcjogZm9jdXM6IG11c2lj,2,102:102:0,VERBOSE
+音乐数据,SGFuZE1lc3NhZ2VSZWNlaXZlcjogcGxheWxpc3Q=,2,102:102:0,VERBOSE
+HandMessageReceiver: (indexPage|totalPage),SGFuZE1lc3NhZ2VSZWNlaXZlcjogKGluZGV4UGFnZXx0b3RhbFBhZ2Up,2,97:49:2,VERBOSE
+外部分页数据,SGFuZE1lc3NhZ2VSZWNlaXZlcjogKGhhc0xpc3R8cGxheUxpc3R8ZmF2b3JpdGVMaXN0fHRvdGFsUGFnZXxpbmRleFBhZ2V8KTogXGQr,2,0:102:153,VERBOSE
+系统语言切换/语音切换,TG9jYWxlQ2hhbmdlUmVjZWl2ZXJ8TGFuZ3VhZ2VDaGFuZ2VVdGlsfExhbmd1YWdlU3dpdGNoZXJ8TGFuZ3VhZ2VVdGls,2,26:69:73,VERBOSE
+外部广播接收,SGFuZE1lc3NhZ2VSZWNlaXZlcg==,2,88:24:88,VERBOSE
+外部广播接收-服务,SGFuZE1lc3NhZ2VSZWNlaXZlcjogZm9jdXM6IFxTKw==,2,102:102:0,VERBOSE
+PermissionManager,UGVybWlzc2lvbk1hbmFnZXI=,2,102:102:0,VERBOSE
+VoiceAssistantLog_IflytekMessageReceiver,Vm9pY2VBc3Npc3RhbnRMb2dfSWZseXRla01lc3NhZ2VSZWNlaXZlcg==,2,64:64:64,VERBOSE
+ContextImpl,Q29udGV4dEltcGw=,2,64:64:64,VERBOSE
+InteractManager,SW50ZXJhY3RNYW5hZ2Vy,2,26:69:73,VERBOSE
+justFinishInteract,anVzdEZpbmlzaEludGVyYWN0,2,102:0:0,VERBOSE
+startBackgroundInteraction,c3RhcnRCYWNrZ3JvdW5kSW50ZXJhY3Rpb24=,2,26:69:73,VERBOSE
+BusinessProcessor,QnVzaW5lc3NQcm9jZXNzb3I=,2,88:24:88,VERBOSE
+MusicStatusManager,TXVzaWNTdGF0dXNNYW5hZ2Vy,2,64:64:64,VERBOSE
+uploadCustomData,dXBsb2FkQ3VzdG9tRGF0YQ==,2,102:102:0,VERBOSE
+ GC ,IEdDIA==,0,102:102:0,VERBOSE
+HandMessageReceiver: (indexPage: 14),SGFuZE1lc3NhZ2VSZWNlaXZlcjogKGluZGV4UGFnZTogMTQp,2,97:49:2,VERBOSE
+HandMessageReceiver:,SGFuZE1lc3NhZ2VSZWNlaXZlcjo=,2,97:49:2,VERBOSE
+语义外抛,UGxhdGZvcm1NZXNzYWdlQWdlbnQoXCggKlxkKlwpKSo6IHN0YXJ0U2VuZEJyb2FkY2FzdFwoXCkgU3RhcnQgc2VuZCBicm9hZGNhc3QgdG8gcGxhdGZvcm06Lio=,2,26:69:73,VERBOSE
+Service,U2VydmljZQ==,2,102:102:0,VERBOSE
+Fatal signal \d+ \(SIGSEGV\),RmF0YWwgc2lnbmFsIFxkKyBcKFNJR1NFR1ZcKQ==,2,64:64:64,VERBOSE
+HandMessageReceiver,SGFuZE1lc3NhZ2VSZWNlaXZlcg==,2,97:49:2,VERBOSE
+BusinessTimer,QnVzaW5lc3NUaW1lcg==,2,102:0:0,VERBOSE
+业务通用,V2VhdGhlclthLXpBLVpdKyhTdGF0ZXxIYW5kbGVyfE1hbmFnZXIpKFwoICpcZCpcKSkqOg==,2,0:102:102,VERBOSE
+ContextImpl,Q29udGV4dEltcGw=,2,26:69:73,VERBOSE
+CommonTtsListener,Q29tbW9uVHRzTGlzdGVuZXI=,2,97:49:2,VERBOSE
+Speech(Background|Recording)State,U3BlZWNoKEJhY2tncm91bmR8UmVjb3JkaW5nKVN0YXRl,2,26:69:73,VERBOSE
+DebugConfig,RGVidWdDb25maWc=,2,26:69:73,VERBOSE
+AppStatusManager,QXBwU3RhdHVzTWFuYWdlcg==,2,102:102:0,VERBOSE
+uploadappstatus,dXBsb2FkYXBwc3RhdHVz,2,102:102:0,VERBOSE
+VideoScanner.3,VmlkZW9TY2FubmVyLjM=,2,0:102:102,VERBOSE
+AppSettingAutolinkImpl,QXBwU2V0dGluZ0F1dG9saW5rSW1wbA==,2,88:24:88,VERBOSE
+TTSOperator,VFRTT3BlcmF0b3I=,2,0:102:153,VERBOSE
+连续识别,6L+e57ut6K+G5Yir,2,26:69:73,VERBOSE

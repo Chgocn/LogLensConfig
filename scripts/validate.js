@@ -46,10 +46,10 @@ let packCount = 0;
 fs.readdirSync(packsDir).forEach(dir => {
   const packPath = path.join(packsDir, dir, 'pack.json');
   if (!fs.existsSync(packPath)) return;
-  
+
   packCount++;
   const packContent = fs.readFileSync(packPath, 'utf-8');
-  
+
   let pack;
   try {
     pack = JSON.parse(packContent);
@@ -58,7 +58,7 @@ fs.readdirSync(packsDir).forEach(dir => {
     hasError = true;
     return;
   }
-  
+
   // Schema validation
   if (!validate(pack)) {
     console.error(`❌ ${dir}: Schema validation failed`);
@@ -66,27 +66,27 @@ fs.readdirSync(packsDir).forEach(dir => {
     hasError = true;
     return;
   }
-  
+
   // ID should match directory name
   if (pack.id !== dir) {
     console.error(`❌ ${dir}: Pack ID "${pack.id}" does not match directory name`);
     hasError = true;
   }
-  
+
   // Tags validation
   pack.tags.forEach(tag => {
     const isValidCategory = validTags.includes(tag);
     const isCustomTag = tag.startsWith(categories.customTagPrefix);
-    
+
     if (isCustomTag && categories.customTagsAllowed) {
       const customTag = tag.slice(categories.customTagPrefix.length);
       const rules = categories.customTagRules;
-      
+
       if (customTag.length < rules.minLength || customTag.length > rules.maxLength) {
         console.error(`❌ ${dir}: Custom tag "${tag}" length must be ${rules.minLength}-${rules.maxLength}`);
         hasError = true;
       }
-      
+
       if (!new RegExp(rules.pattern).test(customTag)) {
         console.error(`❌ ${dir}: Custom tag "${tag}" does not match pattern ${rules.pattern}`);
         hasError = true;
@@ -96,7 +96,7 @@ fs.readdirSync(packsDir).forEach(dir => {
       hasError = true;
     }
   });
-  
+
   if (!hasError) {
     console.log(`✅ ${dir}: Valid`);
   }
@@ -110,4 +110,13 @@ if (hasError) {
   process.exit(1);
 } else {
   console.log(`\n✨ All ${packCount} pack(s) validated successfully`);
+
+  // Auto-build registry when validation passes
+  console.log('\n🔄 Updating registry...');
+  try {
+    require('./build-registry.js');
+  } catch (e) {
+    console.error('⚠️  Failed to update registry:', e.message);
+    process.exit(1);
+  }
 }

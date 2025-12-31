@@ -32,7 +32,8 @@ function parseArgs() {
         packName: null,
         author: 'unknown',
         tags: ['custom:logviewer'],
-        group: null
+        group: null,
+        noRebuild: false
     };
 
     for (let i = 0; i < args.length; i++) {
@@ -49,6 +50,8 @@ function parseArgs() {
             options.tags = args[++i].split(',').map(t => t.trim());
         } else if (arg === '--group') {
             options.group = args[++i];
+        } else if (arg === '--no-rebuild') {
+            options.noRebuild = true;
         } else if (!arg.startsWith('-')) {
             options.input = arg;
         }
@@ -292,6 +295,7 @@ function main() {
 
     console.log('\n✅ Conversion complete!');
     console.log(`   Output saved to: ${options.output}`);
+    console.log('\n� Run "npm run validate" to validate and update registry.');
 }
 
 main();
