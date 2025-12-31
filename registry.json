@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2025-12-31T05:57:04.136Z",
+  "generatedAt": "2025-12-31T06:22:49.239Z",
   "baseUrl": "https://raw.githubusercontent.com/log-compass/community-packs/main",
   "categories": [
     {
@@ -59,7 +59,7 @@
       "category": "android",
       "path": "packs/android-anr/pack.json",
       "readme": "packs/android-anr/README.md",
-      "updatedAt": "2025-12-31T05:57:04.135Z"
+      "updatedAt": "2025-12-31T06:22:49.238Z"
     },
     {
       "id": "business",
@@ -73,7 +73,7 @@
       "category": "custom:speech",
       "path": "packs/business/pack.json",
       "readme": null,
-      "updatedAt": "2025-12-31T05:57:04.136Z"
+      "updatedAt": "2025-12-31T06:22:49.239Z"
     },
     {
       "id": "speech",
@@ -87,7 +87,7 @@
       "category": "android",
       "path": "packs/speech/pack.json",
       "readme": "packs/speech/README.md",
-      "updatedAt": "2025-12-31T05:57:04.136Z"
+      "updatedAt": "2025-12-31T06:22:49.239Z"
     }
   ]
 }
