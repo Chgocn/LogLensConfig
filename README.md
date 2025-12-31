@@ -2,6 +2,8 @@
 
 A community-maintained repository of rule packs for [Log Compass](https://github.com/log-compass/log-compass).
 
+English | [中文](README-zh.md)
+
 ## 📦 What are Packs?
 
 Packs are pre-configured collections of:
@@ -52,6 +54,7 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ```
 ├── packs/              # Community rule packs
+├── filters/            # LogViewer format filter files
 ├── categories.json     # Available categories
 ├── registry.json       # Auto-generated pack registry
 ├── templates/          # Pack templates
@@ -88,6 +91,17 @@ mkdir packs/my-pack
 cp templates/pack-template.json packs/my-pack/pack.json
 
 # Edit and customize
+```
+
+### Converting from LogViewer
+
+If you have `.filter` files from [tibagni/LogViewer](https://github.com/tibagni/LogViewer), use the conversion script:
+
+```bash
+node scripts/convert-logviewer.js your-filters.filter \
+  --author your-name \
+  --tags android \
+  --output packs/your-pack/pack.json
 ```
 
 ## 📄 License
