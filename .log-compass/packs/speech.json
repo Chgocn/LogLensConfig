@@ -2,7 +2,7 @@
   "type": "rule-pack",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-05T09:10:42.048Z",
+  "exportedAt": "2026-01-05T09:22:24.341Z",
   "pack": {
     "id": "speech",
     "name": "Speech Recognition",
