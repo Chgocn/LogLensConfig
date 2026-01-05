@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-05T09:08:49.559Z",
+  "exportedAt": "2026-01-05T09:10:40.101Z",
   "project": {
     "id": "project-1767099929521",
     "name": "智能助理",
@@ -44,6 +44,6 @@
     "activeFormatId": "android",
     "userLevelDefinitions": [],
     "createdAt": "2025-12-30T13:05:29.521Z",
-    "updatedAt": "2026-01-05T09:08:34.414Z"
+    "updatedAt": "2026-01-05T09:09:00.764Z"
   }
 }
