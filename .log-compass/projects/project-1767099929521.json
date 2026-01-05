@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-05T09:10:40.101Z",
+  "exportedAt": "2026-01-05T09:22:22.186Z",
   "project": {
     "id": "project-1767099929521",
     "name": "智能助理",
@@ -40,10 +40,73 @@
       "autoCollapse": true,
       "maxStackLines": 50
     },
-    "logFormats": [],
-    "activeFormatId": "android",
+    "logFormats": [
+      {
+        "id": "auto",
+        "name": "Auto Detect",
+        "patterns": []
+      },
+      {
+        "id": "standard",
+        "name": "Standard [LEVEL] Message",
+        "patterns": [
+          {
+            "pattern": "\\[(VERBOSE|DEBUG|INFO|WARN|ERROR)\\]\\s*(.*)"
+          }
+        ]
+      },
+      {
+        "id": "timestamp",
+        "name": "Timestamp [LEVEL] Message",
+        "patterns": [
+          {
+            "pattern": "(\\d{4}-\\d{2}-\\d{2}[T\\s]\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:?\\d{2})?)\\s*\\[(VERBOSE|DEBUG|INFO|WARN|ERROR)\\]\\s*(.*)"
+          }
+        ]
+      },
+      {
+        "id": "syslog",
+        "name": "Syslog Format",
+        "patterns": [
+          {
+            "pattern": "(\\w{3}\\s+\\d{1,2}\\s+\\d{2}:\\d{2}:\\d{2})\\s+(\\S+)\\s+(\\w+)\\[(\\d+)\\]:\\s*(.*)"
+          }
+        ]
+      },
+      {
+        "id": "json",
+        "name": "JSON Format",
+        "patterns": [
+          {
+            "pattern": "\\{.*\"level\"\\s*:\\s*\"(\\w+)\".*\"message\"\\s*:\\s*\"([^\"]*)\".*\\}"
+          }
+        ]
+      },
+      {
+        "id": "android",
+        "name": "Android Logcat",
+        "patterns": [
+          {
+            "pattern": "(\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2}\\.\\d{3})\\s+(\\d+)\\s+(\\d+)\\s+([VDIWE])\\s+([^:]+):\\s+(.*)"
+          },
+          {
+            "pattern": "^(\\w+):\\s+(.*)"
+          }
+        ]
+      },
+      {
+        "id": "custom_1767604878924",
+        "name": "MyLogcat",
+        "patterns": [
+          {
+            "pattern": "^(?P<timestamp>\\d{2}-\\d{2}\\s\\d{2}:\\d{2}:\\d{2}\\.\\d{3})\\s+\\d+\\s+\\d+\\s+(?P<level>[A-Z])\\s+(?P<tag>[^:]+):\\s+(?P<message>.*)$"
+          }
+        ]
+      }
+    ],
+    "activeFormatId": "custom_1767604878924",
     "userLevelDefinitions": [],
     "createdAt": "2025-12-30T13:05:29.521Z",
-    "updatedAt": "2026-01-05T09:09:00.764Z"
+    "updatedAt": "2026-01-05T09:21:39.854Z"
   }
 }
