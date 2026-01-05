@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2025-12-31T03:25:29.761Z",
+  "exportedAt": "2026-01-05T09:08:49.559Z",
   "project": {
     "id": "project-1767099929521",
     "name": "智能助理",
@@ -10,10 +10,28 @@
     "pathPatterns": [],
     "projectTypes": [],
     "enabledPacks": [
+      "business",
       "speech"
     ],
     "disabledPackRules": [],
-    "filters": [],
+    "filters": [
+      {
+        "name": "版本信息",
+        "pattern": "BusinessWakeUp",
+        "isRegex": false,
+        "isEnabled": false,
+        "color": "#666600",
+        "id": "q54biafr3"
+      },
+      {
+        "name": "语义结果 (Copy)",
+        "pattern": "SrSolution",
+        "isRegex": true,
+        "isEnabled": false,
+        "color": "#006666",
+        "id": "ii2ybstyu"
+      }
+    ],
     "filterGroups": [],
     "exceptionRules": [],
     "exceptionGroups": [],
@@ -23,9 +41,9 @@
       "maxStackLines": 50
     },
     "logFormats": [],
-    "activeFormatId": null,
+    "activeFormatId": "android",
     "userLevelDefinitions": [],
     "createdAt": "2025-12-30T13:05:29.521Z",
-    "updatedAt": "2025-12-31T03:24:50.566Z"
+    "updatedAt": "2026-01-05T09:08:34.414Z"
   }
 }
