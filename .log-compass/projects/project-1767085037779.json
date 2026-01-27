@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-05T09:22:20.141Z",
+  "exportedAt": "2026-01-27T07:31:33.026Z",
   "project": {
     "id": "project-1767085037779",
     "name": "Default",
@@ -12,19 +12,101 @@
       "builtin:general"
     ],
     "disabledPackRules": [],
-    "filters": [],
+    "filters": [
+      {
+        "name": "Fatal (Copy)",
+        "pattern": "\\b(FATAL|fatal|Fatal|CRITICAL|critical)\\b",
+        "isRegex": true,
+        "isEnabled": false,
+        "color": "#b91c1c",
+        "id": "pzayeq0pn"
+      }
+    ],
     "filterGroups": [],
-    "exceptionRules": [],
+    "exceptionRules": [
+      {
+        "name": "FATAL",
+        "pattern": "\\b(FATAL|fatal|Fatal|CRITICAL|critical)\\b",
+        "isRegex": true,
+        "isEnabled": false,
+        "color": "#ef4444",
+        "stackTracePattern": "\\b(FATAL|fatal|Fatal|CRITICAL|critical)\\b",
+        "id": "exc_1767775633910_hsskd0b"
+      },
+      {
+        "name": "Exception (Copy)",
+        "pattern": "\\b\\w*(Exception|Error)\\b:?",
+        "isRegex": true,
+        "isEnabled": true,
+        "color": "#dc2626",
+        "id": "exc_1767791382329_lakk38l"
+      }
+    ],
     "exceptionGroups": [],
     "exceptionConfig": {
-      "enabled": true,
+      "enabled": false,
       "autoCollapse": true,
-      "maxStackLines": 50
+      "maxStackLines": 50,
+      "mode": "filter"
     },
-    "logFormats": [],
-    "activeFormatId": null,
+    "logFormats": [
+      {
+        "id": "auto",
+        "name": "Auto Detect",
+        "patterns": []
+      },
+      {
+        "id": "standard",
+        "name": "Standard [LEVEL] Message",
+        "patterns": [
+          {
+            "pattern": "\\[(VERBOSE|DEBUG|INFO|WARN|ERROR)\\]\\s*(.*)"
+          }
+        ]
+      },
+      {
+        "id": "timestamp",
+        "name": "Timestamp [LEVEL] Message",
+        "patterns": [
+          {
+            "pattern": "(\\d{4}-\\d{2}-\\d{2}[T\\s]\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:?\\d{2})?)\\s*\\[(VERBOSE|DEBUG|INFO|WARN|ERROR)\\]\\s*(.*)"
+          }
+        ]
+      },
+      {
+        "id": "syslog",
+        "name": "Syslog Format",
+        "patterns": [
+          {
+            "pattern": "(\\w{3}\\s+\\d{1,2}\\s+\\d{2}:\\d{2}:\\d{2})\\s+(\\S+)\\s+(\\w+)\\[(\\d+)\\]:\\s*(.*)"
+          }
+        ]
+      },
+      {
+        "id": "json",
+        "name": "JSON Format",
+        "patterns": [
+          {
+            "pattern": "\\{.*\"level\"\\s*:\\s*\"(\\w+)\".*\"message\"\\s*:\\s*\"([^\"]*)\".*\\}"
+          }
+        ]
+      },
+      {
+        "id": "android",
+        "name": "Android Logcat",
+        "patterns": [
+          {
+            "pattern": "(\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2}\\.\\d{3})\\s+(\\d+)\\s+(\\d+)\\s+([VDIWE])\\s+([^:]+):\\s+(.*)"
+          },
+          {
+            "pattern": "^(\\w+):\\s+(.*)"
+          }
+        ]
+      }
+    ],
+    "activeFormatId": "auto",
     "userLevelDefinitions": [],
     "createdAt": "2025-12-30T08:57:17.779Z",
-    "updatedAt": "2025-12-30T13:21:32.409Z"
+    "updatedAt": "2026-01-27T04:29:54.983Z"
   }
 }
