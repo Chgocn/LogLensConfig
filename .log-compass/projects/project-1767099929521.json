@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-27T07:31:36.426Z",
+  "exportedAt": "2026-01-29T02:51:57.708Z",
   "project": {
     "id": "project-1767099929521",
     "name": "智能助理",
@@ -16,23 +16,57 @@
     "disabledPackRules": [],
     "filters": [
       {
-        "name": "版本信息",
-        "pattern": "BusinessWakeUp",
-        "isRegex": false,
-        "isEnabled": false,
-        "color": "#666600",
-        "id": "q54biafr3"
-      },
-      {
         "name": "语义结果 (Copy)",
         "pattern": "SrSolution",
         "isRegex": true,
         "isEnabled": false,
         "color": "#006666",
-        "id": "ii2ybstyu"
+        "id": "ii2ybstyu",
+        "group": "7gyq0ked0"
+      },
+      {
+        "name": "SpeechSdk (Copy)",
+        "pattern": "SpeechSdk",
+        "isRegex": false,
+        "isEnabled": true,
+        "color": "#006699",
+        "id": "tpmpntogy",
+        "group": "7gyq0ked0"
+      },
+      {
+        "name": "版本信息",
+        "pattern": "BusinessWakeUp",
+        "isRegex": false,
+        "isEnabled": false,
+        "color": "#666600",
+        "id": "q54biafr3",
+        "group": "e66oljrvs"
+      },
+      {
+        "name": "223",
+        "pattern": "223",
+        "isRegex": false,
+        "isEnabled": true,
+        "color": "#ef4444",
+        "id": "moxcaon3n"
       }
     ],
-    "filterGroups": [],
+    "filterGroups": [
+      {
+        "id": "7gyq0ked0",
+        "name": "测试组",
+        "isExpanded": true,
+        "isEnabled": true,
+        "filters": []
+      },
+      {
+        "id": "e66oljrvs",
+        "name": "testGroup",
+        "isExpanded": true,
+        "isEnabled": true,
+        "filters": []
+      }
+    ],
     "exceptionRules": [],
     "exceptionGroups": [],
     "exceptionConfig": {
@@ -107,6 +141,6 @@
     "activeFormatId": "custom_1767604878924",
     "userLevelDefinitions": [],
     "createdAt": "2025-12-30T13:05:29.521Z",
-    "updatedAt": "2026-01-27T07:31:24.554Z"
+    "updatedAt": "2026-01-29T02:51:39.964Z"
   }
 }
