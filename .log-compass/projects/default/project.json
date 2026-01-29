@@ -1,0 +1,53 @@
+{
+  "type": "project",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-01-29T05:32:47.784Z",
+  "project": {
+    "id": "project-1767085037779",
+    "name": "Default",
+    "description": "",
+    "pathPatterns": [],
+    "enabledPacks": [
+      "builtin:general"
+    ],
+    "disabledPackRules": [],
+    "filters": [],
+    "filterGroups": [],
+    "exceptionRules": [
+      {
+        "name": "FATAL",
+        "pattern": "\\b(FATAL|fatal|Fatal|CRITICAL|critical)\\b",
+        "isRegex": true,
+        "isEnabled": false,
+        "color": "#ef4444",
+        "stackTracePattern": "\\b(FATAL|fatal|Fatal|CRITICAL|critical)\\b",
+        "id": "exc_1767775633910_hsskd0b"
+      },
+      {
+        "name": "Exception (Copy)",
+        "pattern": "\\b\\w*(Exception|Error)\\b:?",
+        "isRegex": true,
+        "isEnabled": true,
+        "color": "#dc2626",
+        "id": "exc_1767791382329_lakk38l"
+      }
+    ],
+    "exceptionGroups": [],
+    "exceptionConfig": {
+      "enabled": false,
+      "autoCollapse": true,
+      "maxStackLines": 50,
+      "mode": "filter"
+    },
+    "logFormats": [],
+    "activeFormatId": "auto",
+    "userLevelDefinitions": [],
+    "createdAt": "2025-12-30T08:57:17.779Z",
+    "updatedAt": "2026-01-29T05:31:45.879Z",
+    "filterConfigPaths": [
+      "filters/filters.json"
+    ],
+    "formatConfigPath": "format.json"
+  }
+}
