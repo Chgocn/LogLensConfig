@@ -2,7 +2,7 @@
   "type": "filters",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-29T05:42:03.442Z",
+  "exportedAt": "2026-01-29T05:51:35.016Z",
   "filters": [
     {
       "name": "Fatal (Copy)",
@@ -12,6 +12,5 @@
       "color": "#b91c1c",
       "id": "pzayeq0pn"
     }
-  ],
-  "filterGroups": []
+  ]
 }
