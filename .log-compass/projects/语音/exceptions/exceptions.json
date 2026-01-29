@@ -1,0 +1,13 @@
+{
+  "type": "exceptions",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-01-29T05:33:00.072Z",
+  "exceptionRules": [],
+  "exceptionGroups": [],
+  "exceptionConfig": {
+    "enabled": false,
+    "autoCollapse": true,
+    "maxStackLines": 50
+  }
+}
