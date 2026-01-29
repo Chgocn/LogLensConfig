@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-29T05:51:33.993Z",
+  "exportedAt": "2026-01-29T06:16:52.303Z",
   "project": {
     "id": "project-1767085037779",
     "name": "Default",
@@ -12,35 +12,6 @@
       "builtin:general"
     ],
     "disabledPackRules": [],
-    "filters": [],
-    "filterGroups": [],
-    "exceptionRules": [
-      {
-        "name": "FATAL",
-        "pattern": "\\b(FATAL|fatal|Fatal|CRITICAL|critical)\\b",
-        "isRegex": true,
-        "isEnabled": false,
-        "color": "#ef4444",
-        "stackTracePattern": "\\b(FATAL|fatal|Fatal|CRITICAL|critical)\\b",
-        "id": "exc_1767775633910_hsskd0b"
-      },
-      {
-        "name": "Exception (Copy)",
-        "pattern": "\\b\\w*(Exception|Error)\\b:?",
-        "isRegex": true,
-        "isEnabled": true,
-        "color": "#dc2626",
-        "id": "exc_1767791382329_lakk38l"
-      }
-    ],
-    "exceptionGroups": [],
-    "exceptionConfig": {
-      "enabled": false,
-      "autoCollapse": true,
-      "maxStackLines": 50,
-      "mode": "filter"
-    },
-    "logFormats": [],
     "activeFormatId": "auto",
     "userLevelDefinitions": [],
     "createdAt": "2025-12-30T08:57:17.779Z",
@@ -48,6 +19,10 @@
     "filterConfigPaths": [
       "filters/default.json"
     ],
-    "formatConfigPath": "format.json"
+    "formatConfigPath": "format.json",
+    "exceptionConfigPaths": [
+      "exceptions/default.json"
+    ],
+    "exceptionSettingsPath": "exceptions/settings.json"
   }
 }
