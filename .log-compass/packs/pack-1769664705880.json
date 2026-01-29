@@ -2,7 +2,7 @@
   "type": "rule-pack",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-29T05:51:50.689Z",
+  "exportedAt": "2026-01-29T06:17:12.094Z",
   "pack": {
     "id": "pack-1769664705880",
     "name": "Android ANR Detection",
