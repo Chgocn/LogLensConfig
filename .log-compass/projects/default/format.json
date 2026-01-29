@@ -1,0 +1,61 @@
+{
+  "type": "formats",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-01-29T05:32:51.150Z",
+  "logFormats": [
+    {
+      "id": "auto",
+      "name": "Auto Detect",
+      "patterns": []
+    },
+    {
+      "id": "standard",
+      "name": "Standard [LEVEL] Message",
+      "patterns": [
+        {
+          "pattern": "\\[(VERBOSE|DEBUG|INFO|WARN|ERROR)\\]\\s*(.*)"
+        }
+      ]
+    },
+    {
+      "id": "timestamp",
+      "name": "Timestamp [LEVEL] Message",
+      "patterns": [
+        {
+          "pattern": "(\\d{4}-\\d{2}-\\d{2}[T\\s]\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:?\\d{2})?)\\s*\\[(VERBOSE|DEBUG|INFO|WARN|ERROR)\\]\\s*(.*)"
+        }
+      ]
+    },
+    {
+      "id": "syslog",
+      "name": "Syslog Format",
+      "patterns": [
+        {
+          "pattern": "(\\w{3}\\s+\\d{1,2}\\s+\\d{2}:\\d{2}:\\d{2})\\s+(\\S+)\\s+(\\w+)\\[(\\d+)\\]:\\s*(.*)"
+        }
+      ]
+    },
+    {
+      "id": "json",
+      "name": "JSON Format",
+      "patterns": [
+        {
+          "pattern": "\\{.*\"level\"\\s*:\\s*\"(\\w+)\".*\"message\"\\s*:\\s*\"([^\"]*)\".*\\}"
+        }
+      ]
+    },
+    {
+      "id": "android",
+      "name": "Android Logcat",
+      "patterns": [
+        {
+          "pattern": "(\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}:\\d{2}\\.\\d{3})\\s+(\\d+)\\s+(\\d+)\\s+([VDIWE])\\s+([^:]+):\\s+(.*)"
+        },
+        {
+          "pattern": "^(\\w+):\\s+(.*)"
+        }
+      ]
+    }
+  ]
+}
