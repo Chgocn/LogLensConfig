@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-29T05:32:54.285Z",
+  "exportedAt": "2026-01-29T05:42:07.505Z",
   "project": {
     "id": "project-1767085238527",
     "name": "语音",
@@ -28,9 +28,7 @@
     "userLevelDefinitions": [],
     "createdAt": "2025-12-30T09:00:38.527Z",
     "updatedAt": "2026-01-29T05:31:45.880Z",
-    "filterConfigPaths": [
-      "filters/filters.json"
-    ],
+    "filterConfigPaths": [],
     "formatConfigPath": "format.json"
   }
 }
