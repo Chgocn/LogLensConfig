@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-29T05:51:38.124Z",
+  "exportedAt": "2026-01-29T06:16:58.705Z",
   "project": {
     "id": "project-1767085238527",
     "name": "语音",
@@ -14,21 +14,13 @@
       "builtin:java"
     ],
     "disabledPackRules": [],
-    "filters": [],
-    "filterGroups": [],
-    "exceptionRules": [],
-    "exceptionGroups": [],
-    "exceptionConfig": {
-      "enabled": false,
-      "autoCollapse": true,
-      "maxStackLines": 50
-    },
-    "logFormats": [],
     "activeFormatId": null,
     "userLevelDefinitions": [],
     "createdAt": "2025-12-30T09:00:38.527Z",
     "updatedAt": "2026-01-29T05:31:45.880Z",
     "filterConfigPaths": [],
-    "formatConfigPath": "format.json"
+    "formatConfigPath": "format.json",
+    "exceptionConfigPaths": [],
+    "exceptionSettingsPath": "exceptions/settings.json"
   }
 }
