@@ -1,0 +1,36 @@
+{
+  "type": "project",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-01-29T05:33:01.717Z",
+  "project": {
+    "id": "project-1767099929521",
+    "name": "智能助理",
+    "description": "",
+    "pathPatterns": [],
+    "projectTypes": [],
+    "enabledPacks": [
+      "business",
+      "speech"
+    ],
+    "disabledPackRules": [],
+    "filters": [],
+    "filterGroups": [],
+    "exceptionRules": [],
+    "exceptionGroups": [],
+    "exceptionConfig": {
+      "enabled": false,
+      "autoCollapse": true,
+      "maxStackLines": 50
+    },
+    "logFormats": [],
+    "activeFormatId": "custom_1767604878924",
+    "userLevelDefinitions": [],
+    "createdAt": "2025-12-30T13:05:29.521Z",
+    "updatedAt": "2026-01-29T05:31:45.880Z",
+    "filterConfigPaths": [
+      "filters/filters.json"
+    ],
+    "formatConfigPath": "format.json"
+  }
+}
