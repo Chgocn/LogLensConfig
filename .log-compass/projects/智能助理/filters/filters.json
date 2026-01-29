@@ -1,0 +1,59 @@
+{
+  "type": "filters",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-01-29T05:33:03.247Z",
+  "filters": [
+    {
+      "name": "语义结果 (Copy)",
+      "pattern": "SrSolution",
+      "isRegex": true,
+      "isEnabled": false,
+      "color": "#006666",
+      "id": "ii2ybstyu",
+      "group": "7gyq0ked0"
+    },
+    {
+      "name": "SpeechSdk (Copy)",
+      "pattern": "SpeechSdk",
+      "isRegex": false,
+      "isEnabled": true,
+      "color": "#006699",
+      "id": "tpmpntogy",
+      "group": "7gyq0ked0"
+    },
+    {
+      "name": "版本信息",
+      "pattern": "BusinessWakeUp",
+      "isRegex": false,
+      "isEnabled": false,
+      "color": "#666600",
+      "id": "q54biafr3",
+      "group": "e66oljrvs"
+    },
+    {
+      "name": "223",
+      "pattern": "223",
+      "isRegex": false,
+      "isEnabled": true,
+      "color": "#ef4444",
+      "id": "moxcaon3n"
+    }
+  ],
+  "filterGroups": [
+    {
+      "id": "7gyq0ked0",
+      "name": "测试组",
+      "isExpanded": true,
+      "isEnabled": true,
+      "filters": []
+    },
+    {
+      "id": "e66oljrvs",
+      "name": "testGroup",
+      "isExpanded": true,
+      "isEnabled": true,
+      "filters": []
+    }
+  ]
+}
