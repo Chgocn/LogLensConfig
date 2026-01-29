@@ -2,7 +2,11 @@
   "type": "filters",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-29T05:42:11.705Z",
+  "exportedAt": "2026-01-29T05:51:41.980Z",
+  "id": "7gyq0ked0",
+  "name": "测试组",
+  "isExpanded": true,
+  "isEnabled": true,
   "filters": [
     {
       "name": "语义结果 (Copy)",
@@ -21,15 +25,6 @@
       "color": "#006699",
       "id": "tpmpntogy",
       "group": "7gyq0ked0"
-    }
-  ],
-  "filterGroups": [
-    {
-      "id": "7gyq0ked0",
-      "name": "测试组",
-      "isExpanded": true,
-      "isEnabled": true,
-      "filters": []
     }
   ]
 }
