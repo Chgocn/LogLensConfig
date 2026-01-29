@@ -1,0 +1,35 @@
+{
+  "type": "filters",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-01-29T05:42:11.705Z",
+  "filters": [
+    {
+      "name": "语义结果 (Copy)",
+      "pattern": "SrSolution",
+      "isRegex": true,
+      "isEnabled": false,
+      "color": "#006666",
+      "id": "ii2ybstyu",
+      "group": "7gyq0ked0"
+    },
+    {
+      "name": "SpeechSdk (Copy)",
+      "pattern": "SpeechSdk",
+      "isRegex": false,
+      "isEnabled": true,
+      "color": "#006699",
+      "id": "tpmpntogy",
+      "group": "7gyq0ked0"
+    }
+  ],
+  "filterGroups": [
+    {
+      "id": "7gyq0ked0",
+      "name": "测试组",
+      "isExpanded": true,
+      "isEnabled": true,
+      "filters": []
+    }
+  ]
+}
