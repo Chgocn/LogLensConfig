@@ -2,7 +2,7 @@
   "type": "filters",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-29T05:42:15.067Z",
+  "exportedAt": "2026-01-29T05:51:43.819Z",
   "filters": [
     {
       "name": "223",
@@ -12,6 +12,5 @@
       "color": "#ef4444",
       "id": "moxcaon3n"
     }
-  ],
-  "filterGroups": []
+  ]
 }
