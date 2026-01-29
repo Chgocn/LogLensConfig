@@ -2,7 +2,11 @@
   "type": "filters",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-29T05:42:13.448Z",
+  "exportedAt": "2026-01-29T05:51:42.953Z",
+  "id": "e66oljrvs",
+  "name": "testGroup",
+  "isExpanded": true,
+  "isEnabled": true,
   "filters": [
     {
       "name": "版本信息",
@@ -12,15 +16,6 @@
       "color": "#666600",
       "id": "q54biafr3",
       "group": "e66oljrvs"
-    }
-  ],
-  "filterGroups": [
-    {
-      "id": "e66oljrvs",
-      "name": "testGroup",
-      "isExpanded": true,
-      "isEnabled": true,
-      "filters": []
     }
   ]
 }
