@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-29T05:32:47.784Z",
+  "exportedAt": "2026-01-29T05:42:02.500Z",
   "project": {
     "id": "project-1767085037779",
     "name": "Default",
@@ -46,7 +46,7 @@
     "createdAt": "2025-12-30T08:57:17.779Z",
     "updatedAt": "2026-01-29T05:31:45.879Z",
     "filterConfigPaths": [
-      "filters/filters.json"
+      "filters/default.json"
     ],
     "formatConfigPath": "format.json"
   }
