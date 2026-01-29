@@ -1,0 +1,17 @@
+{
+  "type": "filters",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-01-29T05:32:49.476Z",
+  "filters": [
+    {
+      "name": "Fatal (Copy)",
+      "pattern": "\\b(FATAL|fatal|Fatal|CRITICAL|critical)\\b",
+      "isRegex": true,
+      "isEnabled": false,
+      "color": "#b91c1c",
+      "id": "pzayeq0pn"
+    }
+  ],
+  "filterGroups": []
+}
