@@ -1,0 +1,427 @@
+{
+  "id": "business",
+  "name": "business",
+  "version": "1.0.0",
+  "author": "chgocn",
+  "description": "Converted from LogViewer filter file: business.filter",
+  "tags": [
+    "custom:speech"
+  ],
+  "filters": [],
+  "filterGroups": [
+    {
+      "id": "group-1",
+      "name": "业务通用",
+      "isExpanded": true,
+      "isEnabled": true,
+      "filters": [
+        {
+          "id": "filter-1",
+          "name": "PermissionManager",
+          "pattern": "PermissionManager",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#666600",
+          "enabled": true
+        },
+        {
+          "id": "filter-2",
+          "name": "PermissionSettingsContentObserver",
+          "pattern": "PermissionSettingsContentObserver",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#1A4549",
+          "enabled": true
+        },
+        {
+          "id": "filter-3",
+          "name": "SystemSettingsContentObserver",
+          "pattern": "SystemSettingsContentObserver",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#1A4549",
+          "enabled": true
+        },
+        {
+          "id": "filter-4",
+          "name": "禁用恢复语助",
+          "pattern": "SpeechClientService: (stop|resume)vr",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#404040",
+          "enabled": true
+        },
+        {
+          "id": "filter-5",
+          "name": "PermissionPrivacyViewPrivacy",
+          "pattern": "PermissionPrivacyViewPrivacy",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#666600",
+          "enabled": true
+        },
+        {
+          "id": "filter-6",
+          "name": "(CarConfigManager|DebugConfig):",
+          "pattern": " (CarConfigManager|DebugConfig):",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#660000",
+          "enabled": true
+        },
+        {
+          "id": "filter-7",
+          "name": "HandMessageReceiver: hasList: 1",
+          "pattern": "HandMessageReceiver: hasList: 1",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#613102",
+          "enabled": true
+        },
+        {
+          "id": "filter-8",
+          "name": "音乐状态上传",
+          "pattern": "HandMessageReceiver: focus: music",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#666600",
+          "enabled": true
+        },
+        {
+          "id": "filter-9",
+          "name": "音乐数据",
+          "pattern": "HandMessageReceiver: playlist",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#666600",
+          "enabled": true
+        },
+        {
+          "id": "filter-10",
+          "name": "HandMessageReceiver: (indexPage|totalPage)",
+          "pattern": "HandMessageReceiver: (indexPage|totalPage)",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#613102",
+          "enabled": true
+        },
+        {
+          "id": "filter-11",
+          "name": "外部分页数据",
+          "pattern": "HandMessageReceiver: (hasList|playList|favoriteList|totalPage|indexPage|): \\d+",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#006699",
+          "enabled": true
+        },
+        {
+          "id": "filter-12",
+          "name": "系统语言切换/语音切换",
+          "pattern": "LocaleChangeReceiver|LanguageChangeUtil|LanguageSwitcher|LanguageUtil",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#1A4549",
+          "enabled": true
+        },
+        {
+          "id": "filter-13",
+          "name": "外部广播接收",
+          "pattern": "HandMessageReceiver",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#581858",
+          "enabled": true
+        },
+        {
+          "id": "filter-14",
+          "name": "外部广播接收-服务",
+          "pattern": "HandMessageReceiver: focus: \\S+",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#666600",
+          "enabled": true
+        },
+        {
+          "id": "filter-15",
+          "name": "PermissionManager",
+          "pattern": "PermissionManager",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#666600",
+          "enabled": true
+        },
+        {
+          "id": "filter-16",
+          "name": "VoiceAssistantLog_IflytekMessageReceiver",
+          "pattern": "VoiceAssistantLog_IflytekMessageReceiver",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#404040",
+          "enabled": true
+        },
+        {
+          "id": "filter-17",
+          "name": "ContextImpl",
+          "pattern": "ContextImpl",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#404040",
+          "enabled": true
+        },
+        {
+          "id": "filter-18",
+          "name": "InteractManager",
+          "pattern": "InteractManager",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#1A4549",
+          "enabled": true
+        },
+        {
+          "id": "filter-19",
+          "name": "justFinishInteract",
+          "pattern": "justFinishInteract",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#660000",
+          "enabled": true
+        },
+        {
+          "id": "filter-20",
+          "name": "startBackgroundInteraction",
+          "pattern": "startBackgroundInteraction",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#1A4549",
+          "enabled": true
+        },
+        {
+          "id": "filter-21",
+          "name": "BusinessProcessor",
+          "pattern": "BusinessProcessor",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#581858",
+          "enabled": true
+        },
+        {
+          "id": "filter-22",
+          "name": "MusicStatusManager",
+          "pattern": "MusicStatusManager",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#404040",
+          "enabled": true
+        },
+        {
+          "id": "filter-23",
+          "name": "uploadCustomData",
+          "pattern": "uploadCustomData",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#666600",
+          "enabled": true
+        },
+        {
+          "id": "filter-24",
+          "name": "GC ",
+          "pattern": " GC ",
+          "isRegex": false,
+          "caseSensitive": true,
+          "color": "#666600",
+          "enabled": true
+        },
+        {
+          "id": "filter-25",
+          "name": "HandMessageReceiver: (indexPage: 14)",
+          "pattern": "HandMessageReceiver: (indexPage: 14)",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#613102",
+          "enabled": true
+        },
+        {
+          "id": "filter-26",
+          "name": "HandMessageReceiver:",
+          "pattern": "HandMessageReceiver:",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#613102",
+          "enabled": true
+        },
+        {
+          "id": "filter-27",
+          "name": "语义外抛",
+          "pattern": "PlatformMessageAgent(\\( *\\d*\\))*: startSendBroadcast\\(\\) Start send broadcast to platform:.*",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#1A4549",
+          "enabled": true
+        },
+        {
+          "id": "filter-28",
+          "name": "Service",
+          "pattern": "Service",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#666600",
+          "enabled": true
+        },
+        {
+          "id": "filter-29",
+          "name": "Fatal signal \\d+ \\(SIGSEGV\\)",
+          "pattern": "Fatal signal \\d+ \\(SIGSEGV\\)",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#404040",
+          "enabled": true
+        },
+        {
+          "id": "filter-30",
+          "name": "HandMessageReceiver",
+          "pattern": "HandMessageReceiver",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#613102",
+          "enabled": true
+        },
+        {
+          "id": "filter-31",
+          "name": "BusinessTimer",
+          "pattern": "BusinessTimer",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#660000",
+          "enabled": true
+        },
+        {
+          "id": "filter-32",
+          "name": "业务通用",
+          "pattern": "Weather[a-zA-Z]+(State|Handler|Manager)(\\( *\\d*\\))*:",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#006666",
+          "enabled": true
+        },
+        {
+          "id": "filter-33",
+          "name": "ContextImpl",
+          "pattern": "ContextImpl",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#1A4549",
+          "enabled": true
+        },
+        {
+          "id": "filter-34",
+          "name": "CommonTtsListener",
+          "pattern": "CommonTtsListener",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#613102",
+          "enabled": true
+        },
+        {
+          "id": "filter-35",
+          "name": "Speech(Background|Recording)State",
+          "pattern": "Speech(Background|Recording)State",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#1A4549",
+          "enabled": true
+        },
+        {
+          "id": "filter-36",
+          "name": "DebugConfig",
+          "pattern": "DebugConfig",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#1A4549",
+          "enabled": true
+        },
+        {
+          "id": "filter-37",
+          "name": "AppStatusManager",
+          "pattern": "AppStatusManager",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#666600",
+          "enabled": true
+        },
+        {
+          "id": "filter-38",
+          "name": "uploadappstatus",
+          "pattern": "uploadappstatus",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#666600",
+          "enabled": true
+        },
+        {
+          "id": "filter-39",
+          "name": "VideoScanner.3",
+          "pattern": "VideoScanner.3",
+          "isRegex": true,
+          "caseSensitive": false,
+          "color": "#006666",
+          "enabled": true
+        },
+        {
+          "id": "filter-40",
+          "name": "AppSettingAutolinkImpl",
+          "pattern": "AppSettingAutolinkImpl",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#581858",
+          "enabled": true
+        },
+        {
+          "id": "filter-41",
+          "name": "TTSOperator",
+          "pattern": "TTSOperator",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#006699",
+          "enabled": true
+        },
+        {
+          "id": "filter-42",
+          "name": "连续识别",
+          "pattern": "连续识别",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#1A4549",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "group-2",
+      "name": "业务唤醒",
+      "isExpanded": false,
+      "isEnabled": true,
+      "filters": [
+        {
+          "id": "filter-43",
+          "name": "BusinessWakeUp",
+          "pattern": "BusinessWakeUp",
+          "isRegex": false,
+          "caseSensitive": false,
+          "color": "#666600",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "exceptionRules": [],
+  "logFormats": [],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-12-31",
+      "changes": [
+        "Converted from LogViewer format (42 filters)"
+      ]
+    }
+  ]
+}

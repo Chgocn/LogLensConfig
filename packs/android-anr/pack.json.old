@@ -1,0 +1,58 @@
+{
+    "id": "android-anr",
+    "name": "Android ANR Detection",
+    "version": "1.0.0",
+    "author": "chgocn",
+    "description": "Detect ANR (Application Not Responding) and native crashes in Android logs",
+    "tags": [
+        "android"
+    ],
+    "filters": [
+        {
+            "id": "anr-trace",
+            "name": "ANR Trace",
+            "pattern": "ANR in",
+            "isRegex": false,
+            "caseSensitive": true,
+            "color": "#FF5722",
+            "enabled": true
+        },
+        {
+            "id": "native-crash",
+            "name": "Native Crash",
+            "pattern": "FATAL SIGNAL",
+            "isRegex": false,
+            "caseSensitive": true,
+            "color": "#F44336",
+            "enabled": true
+        },
+        {
+            "id": "tombstone",
+            "name": "Tombstone",
+            "pattern": "*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***",
+            "isRegex": false,
+            "caseSensitive": false,
+            "color": "#E91E63",
+            "enabled": true
+        }
+    ],
+    "exceptionRules": [
+        {
+            "id": "anr-main-thread",
+            "name": "Main Thread ANR",
+            "pattern": "ANR in.*main",
+            "severity": "error",
+            "description": "The main thread is blocked and causing ANR"
+        }
+    ],
+    "logFormats": [],
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2024-12-30",
+            "changes": [
+                "Initial release with ANR and native crash detection"
+            ]
+        }
+    ]
+}
