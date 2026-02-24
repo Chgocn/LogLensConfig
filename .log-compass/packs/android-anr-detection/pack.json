@@ -1,0 +1,24 @@
+{
+  "type": "rule-pack",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-02-24T07:20:05.682Z",
+  "pack": {
+    "id": "pack-1767163262823",
+    "name": "Android ANR Detection",
+    "version": "1.0.0",
+    "type": "user",
+    "tags": [
+      "android"
+    ],
+    "description": "Detect ANR (Application Not Responding) and native crashes in Android logs",
+    "author": "chgocn",
+    "filterConfigPaths": [
+      "filters/default.json"
+    ],
+    "exceptionConfigPaths": [
+      "exceptions/default.json"
+    ],
+    "exceptionSettingsPath": "exceptions/settings.json"
+  }
+}
