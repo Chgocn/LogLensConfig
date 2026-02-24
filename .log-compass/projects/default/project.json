@@ -2,27 +2,24 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-29T06:16:52.303Z",
+  "exportedAt": "2026-02-24T06:33:45.431Z",
   "project": {
-    "id": "project-1767085037779",
+    "id": "project-1767163161843",
     "name": "Default",
     "description": "",
     "pathPatterns": [],
+    "projectTypes": [],
     "enabledPacks": [
       "builtin:general"
     ],
     "disabledPackRules": [],
-    "activeFormatId": "auto",
+    "activeFormatId": null,
     "userLevelDefinitions": [],
-    "createdAt": "2025-12-30T08:57:17.779Z",
-    "updatedAt": "2026-01-29T05:31:45.879Z",
-    "filterConfigPaths": [
-      "filters/default.json"
-    ],
+    "createdAt": "2025-12-31T06:39:21.843Z",
+    "updatedAt": "2025-12-31T06:49:01.492Z",
+    "filterConfigPaths": [],
     "formatConfigPath": "format.json",
-    "exceptionConfigPaths": [
-      "exceptions/default.json"
-    ],
+    "exceptionConfigPaths": [],
     "exceptionSettingsPath": "exceptions/settings.json"
   }
 }
