@@ -4,19 +4,20 @@
   "app": "log-compass",
   "exportedAt": "2026-02-24T08:07:37.315Z",
   "project": {
-    "id": "project-1770257021586",
-    "name": "aiuiassistant",
-    "description": "语音项目3.5 + 2.0",
+    "id": "project-1767099929521",
+    "name": "智能助理",
+    "description": "",
     "pathPatterns": [],
     "projectTypes": [],
-    "enabledPacks": [],
+    "enabledPacks": [
+      "business",
+      "speech"
+    ],
     "disabledPackRules": [],
-    "filterConfigPaths": [],
-    "exceptionConfigPaths": [],
-    "activeFormatId": null,
+    "activeFormatId": "custom_1767604878924",
     "userLevelDefinitions": [],
-    "createdAt": "2026-02-05T02:03:41.586Z",
-    "updatedAt": "2026-02-24T07:24:37.216Z",
+    "createdAt": "2025-12-30T13:05:29.521Z",
+    "updatedAt": "2026-02-24T08:04:18.791Z",
     "scripts": [
       {
         "id": "builtin-android-create-pid-filter",
@@ -56,10 +57,24 @@
           "crash"
         ],
         "code": "const { pid, package: pkg } = ctx.vars;\n\nif (!pid) {\n  ctx.notify('未找到 PID 变量', 'error');\n  return;\n}\n\nctx.log(`搜索 ${pkg || pid} 的崩溃日志...`);\n\n// 创建多个临时规则来捕获崩溃\nconst patterns = [\n  { name: '💥 Fatal Exception', pattern: `${pid}.*FATAL EXCEPTION` },\n  { name: '🔴 Native Crash', pattern: `${pid}.*DEBUG.*signal` },\n  { name: '⏱️ ANR', pattern: pkg ? `ANR in ${pkg}` : `${pid}.*ANR` },\n  { name: '❌ Process Died', pattern: `died.*${pid}` }\n];\n\nlet created = 0;\npatterns.forEach(({ name, pattern }) => {\n  try {\n    ctx.addTempFilter({\n      name,\n      pattern,\n      isRegex: true,\n      color: '#ef4444'\n    });\n    created++;\n  } catch (e) {\n    ctx.log(`创建规则失败: ${name}`, e);\n  }\n});\n\nctx.notify(`✅ 已创建 ${created} 个崩溃检测规则`, 'info');"
+      },
+      {
+        "name": "Create PID Filter (Copy)",
+        "description": "根据提取的 PID 自动创建过滤规则",
+        "trigger": "manual",
+        "code": "const { pid, package: pkg } = ctx.vars;\n\nif (!pid) {\n  ctx.notify('未找到 PID 变量', 'error');\n  return;\n}\n\nctx.log('创建 PID 过滤规则:', pid);\n\n// 创建临时过滤规则\nconst filterId = ctx.addTempFilter({\n  name: `📱 ${pkg || 'App'} (PID: ${pid})`,\n  pattern: `^\\\\s*\\\\S+\\\\s+\\\\S+\\\\s+${pid}\\\\s+`,  // Android logcat 格式\n  isRegex: true,\n  color: '#ff6b6b'\n});\n\nctx.notify(`✅ 已创建 PID ${pid} 过滤规则`, 'success');\n\n// 保存 PID 到全局变量\nctx.setGlobalVar('lastPid', pid);\nif (pkg) {\n  ctx.setGlobalVar('lastPackage', pkg);\n}",
+        "isEnabled": true,
+        "id": "script-1771588158615-yh7b1rwgb"
       }
     ],
     "scriptGroups": [],
+    "filterConfigPaths": [
+      "filters/测试组.json",
+      "filters/testgroup.json",
+      "filters/default.json"
+    ],
     "formatConfigPath": "format.json",
+    "exceptionConfigPaths": [],
     "exceptionSettingsPath": "exceptions/settings.json"
   }
 }

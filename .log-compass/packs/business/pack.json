@@ -4,17 +4,18 @@
   "app": "log-compass",
   "exportedAt": "2026-02-24T08:07:37.315Z",
   "pack": {
-    "id": "speech",
-    "name": "Speech Recognition",
+    "id": "business",
+    "name": "business",
     "version": "1.0.0",
     "type": "user",
     "tags": [
-      "android"
+      "custom:speech"
     ],
-    "description": "Converted from LogViewer filter file: speech.filter",
+    "description": "Converted from LogViewer filter file: business.filter",
     "author": "chgocn",
     "filterConfigPaths": [
-      "filters/default.json"
+      "filters/业务通用.json",
+      "filters/业务唤醒.json"
     ]
   }
 }

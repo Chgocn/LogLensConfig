@@ -4,19 +4,19 @@
   "app": "log-compass",
   "exportedAt": "2026-02-24T08:07:37.315Z",
   "project": {
-    "id": "project-1770257021586",
-    "name": "aiuiassistant",
-    "description": "语音项目3.5 + 2.0",
+    "id": "project-1767085037779",
+    "name": "Default",
+    "description": "",
     "pathPatterns": [],
-    "projectTypes": [],
-    "enabledPacks": [],
+    "enabledPacks": [
+      "builtin:general",
+      "business"
+    ],
     "disabledPackRules": [],
-    "filterConfigPaths": [],
-    "exceptionConfigPaths": [],
-    "activeFormatId": null,
+    "activeFormatId": "auto",
     "userLevelDefinitions": [],
-    "createdAt": "2026-02-05T02:03:41.586Z",
-    "updatedAt": "2026-02-24T07:24:37.216Z",
+    "createdAt": "2025-12-30T08:57:17.779Z",
+    "updatedAt": "2026-02-24T07:50:08.306Z",
     "scripts": [
       {
         "id": "builtin-android-create-pid-filter",
@@ -59,7 +59,13 @@
       }
     ],
     "scriptGroups": [],
+    "filterConfigPaths": [
+      "filters/default.json"
+    ],
     "formatConfigPath": "format.json",
+    "exceptionConfigPaths": [
+      "exceptions/default.json"
+    ],
     "exceptionSettingsPath": "exceptions/settings.json"
   }
 }

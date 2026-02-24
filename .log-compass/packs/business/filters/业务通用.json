@@ -1,0 +1,11 @@
+{
+  "type": "filters",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-02-24T08:07:37.315Z",
+  "id": "group-1",
+  "name": "业务通用",
+  "enabled": true,
+  "collapsed": false,
+  "filters": []
+}

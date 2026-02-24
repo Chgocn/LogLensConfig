@@ -1,0 +1,24 @@
+{
+  "type": "filters",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-02-24T08:07:37.315Z",
+  "id": "e66oljrvs",
+  "name": "testGroup",
+  "isExpanded": false,
+  "isEnabled": true,
+  "description": "坎坎坷坷看坎坎坷坷坎坎坷坷呢快捷键就哭了77779988989790990",
+  "filters": [
+    {
+      "name": "版本信息",
+      "pattern": "BusinessWakeUp",
+      "isRegex": false,
+      "isEnabled": true,
+      "color": "#666600",
+      "id": "q54biafr3",
+      "group": "e66oljrvs",
+      "mode": "all",
+      "description": ""
+    }
+  ]
+}

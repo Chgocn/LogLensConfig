@@ -4,9 +4,9 @@
   "app": "log-compass",
   "exportedAt": "2026-02-24T08:07:37.315Z",
   "exceptionConfig": {
-    "enabled": true,
-    "mode": "highlight",
+    "enabled": false,
     "autoCollapse": true,
-    "maxStackLines": 50
+    "maxStackLines": 50,
+    "mode": "filter"
   }
 }
