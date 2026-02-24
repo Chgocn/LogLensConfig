@@ -2,7 +2,7 @@
   "type": "filters",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-02-24T07:13:46.559Z",
+  "exportedAt": "2026-02-24T07:15:52.053Z",
   "filters": [
     {
       "id": "anr-trace",
