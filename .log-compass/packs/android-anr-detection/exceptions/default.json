@@ -1,8 +1,8 @@
 {
-  "app": "log-compass",
-  "version": "2.0.0",
   "type": "exceptions",
-  "generatedAt": "2026-02-10T07:36:28.643Z",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-02-24T07:08:49.786Z",
   "exceptionRules": [
     {
       "id": "anr-main-thread",
