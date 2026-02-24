@@ -1,0 +1,89 @@
+{
+  "type": "filters",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-02-24T08:14:00.452Z",
+  "id": "i7dbdhwq1",
+  "name": "通用流程",
+  "description": "查看用户操作的大体流程",
+  "isExpanded": false,
+  "isEnabled": true,
+  "filters": [
+    {
+      "name": "唤醒40003",
+      "pattern": "(MulMvwManager|MvwSolution).*?onMVWMsgProc_.*?40003.*?\"Direction\":(?<direction>\\d+).*?\"nKeyword\":\"(?<唤醒词>.*?)\"",
+      "isRegex": true,
+      "isEnabled": true,
+      "color": "#ef4444",
+      "mode": "all",
+      "id": "tp1ysn1ej",
+      "group": "i7dbdhwq1",
+      "description": ""
+    },
+    {
+      "name": "识别20009",
+      "pattern": "SrSolution.*?\\b20009\\b.*?\"normal_text\":\"(?P<识别文本>.*?)\".*?\"rc\":(?P<RC>\\d+)",
+      "isRegex": true,
+      "isEnabled": true,
+      "color": "#22c55e",
+      "mode": "all",
+      "id": "ilcdwa9wx",
+      "group": "i7dbdhwq1",
+      "description": ""
+    },
+    {
+      "name": "禁用恢复",
+      "pattern": "SpeechClientService.*(stopvr|resumevr)",
+      "isRegex": true,
+      "isEnabled": true,
+      "color": "#ef4444",
+      "mode": "all",
+      "id": "w1qhnupsx",
+      "group": "i7dbdhwq1"
+    },
+    {
+      "name": "硬按键",
+      "pattern": "SpeechClientService.*startvr",
+      "isRegex": true,
+      "isEnabled": true,
+      "color": "#14b8a6",
+      "mode": "all",
+      "id": "31kqkzvmk",
+      "group": "i7dbdhwq1",
+      "description": ""
+    },
+    {
+      "name": "TTS",
+      "pattern": "TtsService.*start.*\\}\\s:(?P<播报>.*)",
+      "isRegex": true,
+      "isEnabled": true,
+      "color": "#ef4444",
+      "mode": "all",
+      "description": "",
+      "id": "ekgurprl7",
+      "group": "i7dbdhwq1"
+    },
+    {
+      "name": "发音人",
+      "pattern": "TtsService.*role id(?P<发音人>.*)",
+      "isRegex": true,
+      "isEnabled": true,
+      "color": "#ef4444",
+      "mode": "change",
+      "description": "",
+      "id": "tthhbcd0a",
+      "group": "i7dbdhwq1"
+    },
+    {
+      "name": "进程id",
+      "pattern": " 2230 ",
+      "isRegex": true,
+      "isEnabled": false,
+      "color": "#ef4444",
+      "mode": "all",
+      "id": "px7heggqy",
+      "group": "i7dbdhwq1",
+      "description": ""
+    }
+  ]
+}

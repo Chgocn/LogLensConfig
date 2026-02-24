@@ -2,7 +2,7 @@
   "type": "exceptions",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-02-24T08:11:03.810Z",
+  "exportedAt": "2026-02-24T08:14:00.452Z",
   "exceptionRules": [
     {
       "id": "anr-main-thread",
