@@ -1,0 +1,20 @@
+{
+  "type": "rule-pack",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-02-24T07:20:09.286Z",
+  "pack": {
+    "id": "speech",
+    "name": "Speech Recognition",
+    "version": "1.0.0",
+    "type": "user",
+    "tags": [
+      "android"
+    ],
+    "description": "Converted from LogViewer filter file: speech.filter",
+    "author": "chgocn",
+    "filterConfigPaths": [
+      "filters/default.json"
+    ]
+  }
+}
