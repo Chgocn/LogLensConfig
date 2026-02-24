@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-02-24T08:07:37.315Z",
+  "exportedAt": "2026-02-24T08:11:03.810Z",
   "project": {
     "id": "project-1767099929521",
     "name": "智能助理",
@@ -17,7 +17,7 @@
     "activeFormatId": "custom_1767604878924",
     "userLevelDefinitions": [],
     "createdAt": "2025-12-30T13:05:29.521Z",
-    "updatedAt": "2026-02-24T08:04:18.791Z",
+    "updatedAt": "2026-02-24T08:10:55.630Z",
     "scripts": [
       {
         "id": "builtin-android-create-pid-filter",

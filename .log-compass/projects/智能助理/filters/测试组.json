@@ -2,11 +2,11 @@
   "type": "filters",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-02-24T08:07:37.315Z",
+  "exportedAt": "2026-02-24T08:11:03.810Z",
   "id": "7gyq0ked0",
   "name": "测试组",
-  "isExpanded": true,
   "isEnabled": true,
+  "isExpanded": false,
   "description": "hhkkjjk",
   "filters": [
     {
