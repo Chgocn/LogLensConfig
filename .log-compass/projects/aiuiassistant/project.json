@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-02-24T08:14:00.452Z",
+  "exportedAt": "2026-02-24T08:29:17.819Z",
   "project": {
     "id": "project-1770257021586",
     "name": "aiuiassistant",
@@ -18,7 +18,7 @@
     "activeFormatId": null,
     "userLevelDefinitions": [],
     "createdAt": "2026-02-05T02:03:41.586Z",
-    "updatedAt": "2026-02-24T08:12:10.883Z",
+    "updatedAt": "2026-02-24T08:15:24.517Z",
     "scripts": [
       {
         "id": "builtin-android-create-pid-filter",
