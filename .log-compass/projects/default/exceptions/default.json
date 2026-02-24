@@ -2,7 +2,7 @@
   "type": "exceptions",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-01-29T06:16:55.363Z",
+  "exportedAt": "2026-02-24T06:41:05.705Z",
   "exceptionRules": [
     {
       "name": "FATAL",
