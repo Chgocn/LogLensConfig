@@ -1,0 +1,15 @@
+{
+  "type": "exceptions",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-02-24T07:25:09.031Z",
+  "exceptionRules": [
+    {
+      "id": "anr-main-thread",
+      "name": "Main Thread ANR",
+      "pattern": "ANR in.*main",
+      "severity": "error",
+      "description": "The main thread is blocked and causing ANR"
+    }
+  ]
+}
