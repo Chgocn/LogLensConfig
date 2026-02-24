@@ -2,7 +2,7 @@
   "type": "project",
   "version": "2.0",
   "app": "log-compass",
-  "exportedAt": "2026-02-24T06:41:04.227Z",
+  "exportedAt": "2026-02-24T06:56:30.551Z",
   "project": {
     "id": "project-1767163161843",
     "name": "Default",
@@ -16,7 +16,7 @@
     "activeFormatId": null,
     "userLevelDefinitions": [],
     "createdAt": "2025-12-31T06:39:21.843Z",
-    "updatedAt": "2026-02-24T06:40:54.445Z",
+    "updatedAt": "2026-02-24T06:56:26.993Z",
     "filterConfigPaths": [],
     "formatConfigPath": "format.json",
     "exceptionConfigPaths": [
