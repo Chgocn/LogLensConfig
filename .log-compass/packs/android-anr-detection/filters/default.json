@@ -1,0 +1,35 @@
+{
+  "type": "filters",
+  "version": "2.0",
+  "app": "log-compass",
+  "exportedAt": "2026-02-24T07:25:07.767Z",
+  "filters": [
+    {
+      "id": "anr-trace",
+      "name": "ANR Trace",
+      "pattern": "ANR in",
+      "isRegex": false,
+      "caseSensitive": true,
+      "color": "#FF5722",
+      "enabled": true
+    },
+    {
+      "id": "native-crash",
+      "name": "Native Crash",
+      "pattern": "FATAL SIGNAL",
+      "isRegex": false,
+      "caseSensitive": true,
+      "color": "#F44336",
+      "enabled": true
+    },
+    {
+      "id": "tombstone",
+      "name": "Tombstone",
+      "pattern": "*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***",
+      "isRegex": false,
+      "caseSensitive": false,
+      "color": "#E91E63",
+      "enabled": true
+    }
+  ]
+}
